@@ -1,0 +1,282 @@
+[
+  {
+    "name": "Galaxy S24 Ultra 5G",
+    "category": "Mobiles",
+    "price": 129999,
+    "description": "Flagship smartphone with 200MP camera, built-in S Pen, and AI features.",
+    "image": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?w=800",
+    "inStock": true
+  },
+  {
+    "name": "iPhone 15 Pro Max",
+    "category": "Mobiles",
+    "price": 139900,
+    "description": "Titanium design with A17 Pro chip, customisable Action button, and 5x Telephoto camera.",
+    "image": "https://images.unsplash.com/photo-1616348436168-de43ad0db179?w=800",
+    "inStock": true
+  },
+  {
+    "name": "OnePlus 12 5G",
+    "category": "Mobiles",
+    "price": 64999,
+    "description": "High performance smartphone with Snapdragon 8 Gen 3 and 100W SuperVOOC charging.",
+    "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=800",
+    "inStock": true
+  },
+  {
+    "name": "Redmi Note 13 Pro+",
+    "category": "Mobiles",
+    "price": 31999,
+    "description": "Premium mid-ranger with 200MP camera and 120W hypercharge capability.",
+    "image": "https://images.unsplash.com/photo-1565849328260-575775178f56?w=800",
+    "inStock": true
+  },
+  {
+    "name": "Sony WH-1000XM5 Headphones",
+    "category": "Electronics",
+    "price": 29990,
+    "description": "Industry leading noise-canceling wireless headphones with 30 hours of battery life.",
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800",
+    "inStock": true
+  },
+  {
+    "name": "Apple Watch Series 9",
+    "category": "Electronics",
+    "price": 41900,
+    "description": "Smartwatch with powerful S9 chip, double tap gesture, and health monitoring.",
+    "image": "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?w=800",
+    "inStock": true
+  },
+  {
+    "name": "Bose SoundLink Revolve+",
+    "category": "Electronics",
+    "price": 24500,
+    "description": "Portable 360-degree wireless Bluetooth speaker with deep, jaw-dropping sound.",
+    "image": "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=800",
+    "inStock": true
+  },
+  {
+    "name": "Nike Red Air Sneakers",
+    "category": "Fashion",
+    "price": 4999,
+    "description": "Premium red sneakers designed for running, lifestyle, and high durability.",
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=800",
+    "inStock": true
+  },
+  {
+    "name": "Nike Green Zoom Shoes",
+    "category": "Fashion",
+    "price": 6999,
+    "description": "High performance sports running shoes with breathable mesh and responsive cushioning.",
+    "image": "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=800",
+    "inStock": true
+  },
+  {
+    "name": "Puma Classic White Sneakers",
+    "category": "Fashion",
+    "price": 3499,
+    "description": "Classic and minimal white leather sneakers with a clean, low-profile design.",
+    "image": "https://images.unsplash.com/photo-1608231387042-66d1773070a5?w=800",
+    "inStock": true
+  },
+  {
+    "name": "Polarized Sports Sunglasses",
+    "category": "Fashion",
+    "price": 1299,
+    "description": "UV400 protection polarized sunglasses designed for running, cycling, and hiking.",
+    "image": "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=800",
+    "inStock": true
+  },
+  {
+    "name": "Leather Handbag for Women",
+    "category": "Fashion",
+    "price": 3299,
+    "description": "Elegant leather tote handbag with spacious compartments and premium zippers.",
+    "image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=800",
+    "inStock": true
+  },
+  {
+    "name": "Professional DSLR Camera",
+    "category": "Electronics",
+    "price": 54999,
+    "description": "24.2 MP DSLR camera with 18-55mm lens kit, perfect for professional photography.",
+    "image": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=800",
+    "inStock": true
+  },
+  {
+    "name": "Wireless Mechanical Keyboard",
+    "category": "Electronics",
+    "price": 4499,
+    "description": "Compact 75% mechanical keyboard with custom red switches and RGB backlighting.",
+    "image": "https://images.unsplash.com/photo-1591375372296-85a21074e5ad?w=800",
+    "inStock": true
+  },
+  {
+    "name": "Ergonomic Optical Mouse",
+    "category": "Electronics",
+    "price": 1499,
+    "description": "High precision wireless optical mouse with ergonomic grip and silent clicks.",
+    "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=800",
+    "inStock": true
+  },
+  {
+    "name": "Matte Liquid Lipstick",
+    "category": "Beauty",
+    "price": 699,
+    "description": "Long-lasting, waterproof, highly-pigmented matte liquid lipstick.",
+    "image": "https://images.unsplash.com/photo-1586495777744-4413f21062fa?w=800",
+    "inStock": true
+  },
+  {
+    "name": "Hydrating Face Serum",
+    "category": "Beauty",
+    "price": 899,
+    "description": "Hyaluronic acid serum with vitamin B5 for deep hydration and skin plumping.",
+    "image": "https://images.unsplash.com/photo-1608248597481-496100c8c836?w=800",
+    "inStock": true
+  },
+  {
+    "name": "Earthy Perfume for Men",
+    "category": "Beauty",
+    "price": 2499,
+    "description": "Premium Eau De Parfum with notes of sandalwood, amber, and fresh citrus.",
+    "image": "https://images.unsplash.com/photo-1564466809058-bf4114d55352?w=800",
+    "inStock": true
+  },
+  {
+    "name": "Premium Face Cream",
+    "category": "Beauty",
+    "price": 1199,
+    "description": "Gentle daily moisturising cream with ceramide and aloe vera extracts.",
+    "image": "https://images.unsplash.com/photo-1585386959984-a4155224a1ad?w=800",
+    "inStock": true
+  },
+  {
+    "name": "Active Noise Cancelling Earbuds",
+    "category": "Electronics",
+    "price": 3999,
+    "description": "True wireless earbuds with smart ANC, IPX5 sweat resistance, and 24h battery life.",
+    "image": "https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?w=800",
+    "inStock": true
+  },
+  {
+    "name": "Elegance Men Cologne",
+    "category": "Beauty",
+    "price": 2999,
+    "description": "Luxury long-lasting fragrance with spicy and woody notes.",
+    "image": "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800",
+    "inStock": true
+  },
+  {
+    "name": "In-Ear Wired Earphones",
+    "category": "Electronics",
+    "price": 999,
+    "description": "High-fidelity in-ear earphones with deep bass, microphone, and tangle-free cord.",
+    "image": "https://images.unsplash.com/photo-1583394838336-acd977736f90?w=800",
+    "inStock": true
+  },
+  {
+    "name": "Ergonomic Office Chair",
+    "category": "Home",
+    "price": 8999,
+    "description": "High-back office chair with adjustable lumbar support, 3D armrests, and mesh back.",
+    "image": "https://images.unsplash.com/photo-1505797149-43b0069ec26b?w=800",
+    "inStock": true
+  },
+  {
+    "name": "Cotton Bedsheet King Size",
+    "category": "Home",
+    "price": 1499,
+    "description": "Soft 300 TC cotton double bedsheet with two pillow covers in elegant prints.",
+    "image": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=800",
+    "inStock": true
+  },
+  {
+    "name": "Non-Stick Cookware Pot",
+    "category": "Home",
+    "price": 1999,
+    "description": "Premium non-stick cooking pot with a glass lid and cool-touch handles.",
+    "image": "https://images.unsplash.com/photo-1584269600464-37b1b58a9fe7?w=800",
+    "inStock": true
+  },
+  {
+    "name": "Minimalist Table Lamp",
+    "category": "Home",
+    "price": 1299,
+    "description": "Modern wooden table lamp with a fabric shade, ideal for study desks or bedsides.",
+    "image": "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?w=800",
+    "inStock": true
+  },
+  {
+    "name": "Stainless Steel Water Bottle",
+    "category": "Sports",
+    "price": 799,
+    "description": "Double-walled vacuum insulated water bottle, keeps drinks cold for 24h or hot for 12h.",
+    "image": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=800",
+    "inStock": true
+  },
+  {
+    "name": "Minimalist Ceramic Vase",
+    "category": "Home",
+    "price": 899,
+    "description": "Elegant white ceramic vase for flowers, perfect for modern home decor.",
+    "image": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=800",
+    "inStock": true
+  },
+  {
+    "name": "White Minimal Mug",
+    "category": "Home",
+    "price": 399,
+    "description": "Matte finish ceramic coffee mug with a comfortable wide-grip handle.",
+    "image": "https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?w=800",
+    "inStock": true
+  },
+  {
+    "name": "Waterproof Hiking Backpack",
+    "category": "Sports",
+    "price": 2499,
+    "description": "50L outdoor camping and hiking rucksack with rain cover and shoe compartment.",
+    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800",
+    "inStock": true
+  },
+  {
+    "name": "Dumbbell Set 10kg",
+    "category": "Sports",
+    "price": 1299,
+    "description": "Pair of PVC encased adjustable dumbbells for home gym workouts.",
+    "image": "https://images.unsplash.com/photo-1638536532686-d610adfc8e5c?w=800",
+    "inStock": true
+  },
+  {
+    "name": "Classic White T-Shirt",
+    "category": "Fashion",
+    "price": 799,
+    "description": "100% premium combed cotton white crewneck t-shirt in regular fit.",
+    "image": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=800",
+    "inStock": true
+  },
+  {
+    "name": "Official Men Dress Shirt",
+    "category": "Fashion",
+    "price": 1499,
+    "description": "Formal solid slim-fit dress shirt made of breathable premium cotton fabric.",
+    "image": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=800",
+    "inStock": true
+  },
+  {
+    "name": "Organic Almonds 500g",
+    "category": "Grocery",
+    "price": 449,
+    "description": "Raw, unsalted premium quality California almonds, fresh and crunchy.",
+    "image": "https://images.unsplash.com/photo-1508061253366-f7da158b6d4f?w=800",
+    "inStock": true
+  },
+  {
+    "name": "Extra Virgin Olive Oil 1L",
+    "category": "Grocery",
+    "price": 899,
+    "description": "Cold-pressed extra virgin olive oil, perfect for salad dressings and light cooking.",
+    "image": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?w=800",
+    "inStock": true
+  }
+]
