@@ -22,7 +22,7 @@ const app = express();
 app.use(express.json());
 app.use(cors({
   origin: [
-    "https://react-e-commerce-ruddy-nu.vercel.app/"
+    "https://react-e-commerce-c6a5.vercel.app/"
   ],
   credentials : true
 }));
