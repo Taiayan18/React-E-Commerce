@@ -23,7 +23,7 @@ app.use(express.json());
 app.use(cors({
   origin: [
     "http://localhost:5173",
-    "https://react-e-commerce-c6a5.vercel.app/"
+    "https://react-e-commerce-lyart-psi.vercel.app/"
   ],
   credentials : true
 }));
