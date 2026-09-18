@@ -20,7 +20,12 @@ import { paymentRoutes } from "./routes/paymentRouter.js";
 const app = express();
 
 app.use(express.json());
-app.use(cors());
+app.use(cors({
+  origin: [
+    "https://react-e-commerce-ruddy-nu.vercel.app/"
+  ],
+  credentials : true
+}));
 
 await connectDB();
 
