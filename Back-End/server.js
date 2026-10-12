@@ -27,7 +27,8 @@ app.use(express.json());
 app.use(cors({
   origin: [
     "http://localhost:5173",
-    "https://react-e-commerce-rilk.vercel.app/"
+    "https://react-e-commerce-rilk.vercel.app/",
+    "https://react-e-commerce-errx.vercel.app"
   ],
   credentials : true
 }));
