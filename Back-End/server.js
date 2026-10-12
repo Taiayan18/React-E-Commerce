@@ -17,13 +17,17 @@ import { orderRoutes } from "./routes/orderRouter.js";
 import { paymentRoutes } from "./routes/paymentRouter.js";
 
 
+
+
 const app = express();
+
+
 
 app.use(express.json());
 app.use(cors({
   origin: [
     "http://localhost:5173",
-    "https://react-e-commerce-lyart-psi.vercel.app/"
+    "https://react-e-commerce-rilk.vercel.app/"
   ],
   credentials : true
 }));

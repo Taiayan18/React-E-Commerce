@@ -136,10 +136,11 @@ const Cart = () => {
             className="w-full mt-3 py-3 rounded-2xl bg-slate-100 dark:bg-slate-800 font-bold hover:bg-slate-200 dark:hover:bg-slate-700 transition-colors"
           >
             Clear Cart
+
+            
           </button>
         </div>
       </div>
-
 
     </section>
   );

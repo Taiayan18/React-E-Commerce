@@ -10,6 +10,7 @@ export const registerUser = async (req, res) => {
     const { name, email, password, role, adminKey } = req.body;
 
     if (!name || !email || !password) {
+
       return res
         .status(400)
         .json({ success: false, message: "All fields are required." });
@@ -27,7 +28,6 @@ export const registerUser = async (req, res) => {
       }
     }
 
-    // Duplicate email check
     const existing = await User.findOne({ email });
     
     
@@ -38,7 +38,12 @@ export const registerUser = async (req, res) => {
           success: false,
           message: "Email already registered. Please login.",
         });
-    }
+    } 
+
+      
+
+
+    // hash password
 
     const hashedPassword = await bcrypt.hash(password, 10);
 

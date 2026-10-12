@@ -17,7 +17,6 @@ const Deals = () => {
           productsList = data;
         }
         
-        // Ensure oldPrice exists before calculating
         const dealsList = productsList.filter(
           (p) => p.oldPrice && p.price && ((p.oldPrice - p.price) / p.oldPrice) * 100 >= 60
         );

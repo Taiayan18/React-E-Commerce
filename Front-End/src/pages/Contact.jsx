@@ -37,6 +37,10 @@ const Contact = () => (
         </button>
       </form>
     </div>
+
+
+
+     
   </section>
 );
 export default Contact;
