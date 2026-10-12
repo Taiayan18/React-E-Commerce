@@ -28,7 +28,7 @@ const Cart = () => {
     }
     navigate("/checkout");
   };
-  
+
   if (!cart.length) {
     return (
       <section className="max-w-7xl mx-auto px-4 py-20 text-center">
@@ -58,10 +58,10 @@ const Cart = () => {
               const fallbackImage = "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=900";
               return (
                 <div key={id} className="p-5 sm:p-6 flex flex-col sm:flex-row gap-4 sm:items-center">
-                  <img 
-                    src={item.image || fallbackImage} 
+                  <img
+                    src={item.image || fallbackImage}
                     onError={(e) => { e.target.src = fallbackImage; }}
-                    className="w-full sm:w-24 sm:h-24 h-40 object-cover rounded-2xl bg-slate-100 dark:bg-slate-800 shrink-0" 
+                    className="w-full sm:w-24 sm:h-24 h-40 object-cover rounded-2xl bg-slate-100 dark:bg-slate-800 shrink-0"
                     alt={item.name}
                   />
                   <div className="flex-1 min-w-0">
@@ -71,18 +71,18 @@ const Cart = () => {
 
                   <div className="flex items-center justify-between sm:justify-end gap-6 sm:gap-8">
                     <div className="flex items-center gap-3 bg-slate-50 dark:bg-slate-800/60 rounded-xl p-1">
-                      <button 
-                        onClick={() => updateQty(id, item.qty - 1)} 
+                      <button
+                        onClick={() => updateQty(id, item.qty - 1)}
                         className="p-2 rounded-lg bg-white dark:bg-slate-800 shadow-sm hover:bg-slate-100 dark:hover:bg-slate-700 transition-colors"
                       >
-                        <Minus size={16}/>
+                        <Minus size={16} />
                       </button>
                       <b className="w-4 text-center">{item.qty}</b>
-                      <button 
-                        onClick={() => updateQty(id, item.qty + 1)} 
+                      <button
+                        onClick={() => updateQty(id, item.qty + 1)}
                         className="p-2 rounded-lg bg-white dark:bg-slate-800 shadow-sm hover:bg-slate-100 dark:hover:bg-slate-700 transition-colors"
                       >
-                        <Plus size={16}/>
+                        <Plus size={16} />
                       </button>
                     </div>
 
@@ -90,12 +90,12 @@ const Cart = () => {
                       <p className="font-black">₹{item.price * item.qty}</p>
                     </div>
 
-                    <button 
-                      onClick={() => handleRemove(id, item.name)} 
+                    <button
+                      onClick={() => handleRemove(id, item.name)}
                       className="p-2 rounded-xl bg-red-50 text-red-600 dark:bg-red-950 dark:text-red-400 hover:bg-red-100 dark:hover:bg-red-900 transition-colors shrink-0"
                       title="Remove from cart"
                     >
-                      <Trash2 size={18}/>
+                      <Trash2 size={18} />
                     </button>
                   </div>
                 </div>
@@ -109,7 +109,7 @@ const Cart = () => {
             </Link>
           </div>
         </div>
-        
+
         <div className="bg-white dark:bg-slate-900 rounded-3xl p-6 border border-slate-200 dark:border-slate-800 shadow-soft sticky top-24">
           <h2 className="text-2xl font-black">Order Summary</h2>
           <div className="flex justify-between mt-6">
@@ -120,25 +120,27 @@ const Cart = () => {
             <span className="text-slate-500">Delivery</span>
             <b className="text-green-600">Free</b>
           </div>
-          <hr className="my-5 border-slate-200 dark:border-slate-800"/>
+          <hr className="my-5 border-slate-200 dark:border-slate-800" />
           <div className="flex justify-between text-xl items-center">
             <span className="font-bold">Total</span>
             <b className="text-2xl font-black text-blue-600">₹{total}</b>
           </div>
-          <button 
+          <button
             onClick={handleCheckout}
             className="w-full mt-8 py-4 rounded-2xl bg-blue-600 text-white font-bold text-lg hover:bg-blue-700 transition-colors shadow-lg shadow-blue-600/30"
           >
             Checkout
           </button>
-          <button 
-            onClick={handleClear} 
+          <button
+            onClick={handleClear}
             className="w-full mt-3 py-3 rounded-2xl bg-slate-100 dark:bg-slate-800 font-bold hover:bg-slate-200 dark:hover:bg-slate-700 transition-colors"
           >
             Clear Cart
           </button>
         </div>
       </div>
+
+
     </section>
   );
 };
